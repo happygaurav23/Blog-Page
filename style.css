@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    color: #12343b;
+    height: 80px;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+    background-color: #d3adad;
+    border: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+  
+.description{
+    text-align: center;
+    margin: 0 60px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+       
+}
+.description h2{
+    color:  #68d388;
+    
+}
+.img{
+    border-radius: 10px;
+    height: 200px;
+    width: 390px;
+    object-fit: cover;
+}
+.vid{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 200px;
+    width: 390px;
+}
+.embed{
+    border-radius: 10px;
+}
+.flex{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #68d388;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tweet{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.twitter-tweet {
+    width: 390px !important;
+    height: 100px;
+}
+
+.parent{
+    position: relative;
+}
+
+.must-read{
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    padding: 4px 14px;
+    border-radius: 18px;
+    margin: 10px;
+}
